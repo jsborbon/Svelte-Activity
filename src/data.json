@@ -1,0 +1,80 @@
+{
+  "name": "John Doe",
+  "sections": [
+    {
+      "title": "My leads",
+      "type": "leads",
+      "items": [
+        { "img": "/images/Leads/lead1.png", "name": "Jhonie Bloggs" },
+        { "img": "/images/Leads/lead2.png", "name": "James Bloggs" },
+        { "img": "/images/Leads/lead3.png", "name": "Jhonie Smith" },
+        { "img": "/images/Leads/lead4.png", "name": "Jhonie Rocket" }
+      ]
+    },
+    {
+      "title": "My meetings",
+      "type": "meetings",
+      "items": [
+        {
+          "img": "/images/Meeting/teams.png",
+          "name": "Student1 at 09:00",
+          "link": "https://teams.com/join?meeting=hbfhshbhfsa",
+          "time": "Today - 23 min"
+        },
+        {
+          "img": "/images/Meeting/zoom.png",
+          "name": "Parents at 15:00",
+          "link": "https://zoom.us/join?meeting=hbfhshbhfsa",
+          "time": "Today - 23 min"
+        }
+      ]
+    },
+    {
+      "title": "Stats",
+      "type": "stats",
+      "items": [
+        {
+          "img": "/images/Stats/stats1.png",
+          "name": "Stats 1",
+          "duration": "400 Leads - 2 years"
+        },
+        {
+          "img": "/images/Stats/stats2.png",
+          "name": "Stats 2",
+          "duration": "400 Leads - 2 years"
+        }
+      ]
+    },
+    {
+      "title": "My clients",
+      "type": "clients",
+      "items": [
+        { "img": "/images/Clients/client1.jpg", "name": "Client 1" },
+        { "img": "/images/Clients/client2.jpg", "name": "Client 2" },
+        { "img": "/images/Clients/client3.jpg", "name": "Client 3" },
+        { "img": "/images/Clients/client4.jpg", "name": "Client 4" }
+      ]
+    },
+    {
+      "title": "Courses",
+      "type": "courses",
+      "items": [
+        {
+          "img": "/images/Courses/finance.png",
+          "name": "Finances FP",
+          "duration": "400 Leads - 2 years"
+        },
+        {
+          "img": "/images/Courses/mobile.png",
+          "name": "Mobile Dev FP",
+          "duration": "400 Leads - 2 years"
+        },
+        {
+          "img": "/images/Courses/web.png",
+          "name": "Web Dev FP",
+          "duration": "200 Leads - 1 year"
+        }
+      ]
+    }
+  ]
+}

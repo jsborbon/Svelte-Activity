@@ -1,0 +1,94 @@
+:root {
+  font-weight: 400;
+  line-height: 1.5;
+  background: #213547;
+  scrollbar-color: transparent transparent;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 460px;
+  padding-right: 1rem;
+  background-color: #f9f9f9;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.icons span {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.section h4 {
+  margin: 0 1rem 10px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  text-align: start;
+}
+
+.leads, .meetings, .stats, .clients, .courses {
+  margin-left: 2rem;
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.client{
+  width: 5rem;
+}
+
+.lead, .client, .stat, .course, .meeting {
+  flex: 0 0 auto;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.lead:hover, .client:hover, .stat:hover, .course:hover, .meeting:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.lead img, .client img, .stat img .course img, .meeting img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
